@@ -10,20 +10,221 @@
     <title>Easybank Landing Page Master</title>
 </head>
 
-<body>
+<body class="">
+    <!-- Navigation -->
     <nav class="navbar">
         <div class="container inside-nav">
             <img src="./img/logo.svg" class="logo">
-            <ul class="nav-elements">
+            <ul class="nav-elements desktop">
+                <li><a href="#">Home <div class="underline"></div></a></li>
+                <li><a href="#">About <div class="underline"></div></a></li>
+                <li><a href="#">Contact <div class="underline"></div></a></li>
+                <li><a href="#">Blog <div class="underline"></div></a></li>
+                <li><a href="#">Careers <div class="underline"></div></a></li>
+            </ul>
+            <button class="btn desktop">Request Invite</button>
+            <img src="./img/icon-hamburger.svg" alt="" class="mobile" id="hamburger">
+            <img src="./img/icon-close.svg" id="close" class="hide">
+        </div>
+    </nav>
+
+    <div class="overlay mobile hide">
+        <div class="overlay-box">
+            <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Careers</a></li>
             </ul>
-            <button class="btn">Request Invite</button>
         </div>
-    </nav>
+    </div>
+    <!-- Main -->
+    <div class="main">
+        <img src="./img/image-mockups.png" alt="">
+        <div class="container hero">
+            <div class="main-text">
+                <h1>Next generation digital banking</h1>
+                <p>Lorem ipsum dolor sit amet consectetur amet, adipisicing elit. Doloremque molestias illum
+                    veritatis
+                    quia corrupti, architecto nulla.</p>
+                <button class="btn">Request Invite</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Easeybank section -->
+    <div class="easybank">
+        <div class="inner-easybank container">
+            <div class="easybank-intro">
+                <h1>Why choose Easybank?</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi repellat iure neque, quaerat vitae
+                    nostrum.</p>
+            </div>
+
+            <!-- Card box -->
+            <div class="option-box">
+                <!-- First Option -->
+                <div class="option">
+                    <img src="./img/icon-online.svg">
+                    <h2>Online Banking</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis repudiandae numquam inventore
+                        voluptatibus.</p>
+                </div>
+                <!-- Second Option -->
+                <div class="option">
+                    <img src="./img/icon-budgeting.svg">
+                    <h2>Simple Budgeting</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel nemo eum qui autem, quia sequi
+                        laudantium optit.</p>
+                </div>
+                <!-- Third Option -->
+                <div class="option">
+                    <img src="./img/icon-onboarding.svg">
+                    <h2>Fast Onboarding</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero eum nemo repellendus sint totam.
+                    </p>
+                </div>
+                <!-- Fourth Option -->
+                <div class="option">
+                    <img src="./img/icon-api.svg">
+                    <h2>Open API</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi debitis suscipit asperiores
+                        impedit odit.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Articles -->
+    <div class="articles">
+        <div class="container inner-articles">
+            <!-- Article box -->
+            <h1>Latest Articles</h1>
+
+            <!-- Article -->
+            <div class="article-box">
+
+                <!-- Article -->
+                <div class="article">
+                    <!-- Article image -->
+                    <div class="article-image" id="currency">
+                        <!-- <img src="./img/image-currency.jpg"> -->
+                    </div>
+                    <!-- Article content -->
+                    <div class="content-box">
+                        <!-- Author -->
+                        <p class="author">By Claire Robinson</p>
+                        <!-- Title -->
+                        <h3>Receive money in any currency with no fees</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eos, eius quasi...
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <!-- Article -->
+                <div class="article">
+                    <!-- Article image -->
+                    <div class="article-image" id="restaurant">
+                        <!-- <img src="./img/image-restaurant.jpg"> -->
+                    </div>
+                    <!-- Article content -->
+                    <div class="content-box">
+                        <!-- Author -->
+                        <p class="author">By Wilson Hutton</p>
+                        <!-- Title -->
+                        <h3>Treat yourself without worrying about money</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eos, eius quasi...</p>
+                    </div>
+                </div>
+
+                <!-- Article -->
+                <div class="article">
+                    <!-- Article image -->
+                    <div class="article-image" id="plane">
+                        <!-- <img src="./img/image-plane.jpg"> -->
+                    </div>
+                    <!-- Article content -->
+                    <div class="content-box">
+                        <!-- Author -->
+                        <p class="author">By Wilson Hutton</p>
+                        <!-- Title -->
+                        <h3>Take your Easybank currency wherever you go</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eos, eius quasi...</p>
+                    </div>
+                </div>
+
+                <!-- Article -->
+                <div class="article">
+                    <!-- Article image -->
+                    <div class="article-image" id="confetti">
+                        <!-- <img src="./img/image-confetti.jpg"> -->
+                    </div>
+                    <!-- Article content -->
+                    <div class="content-box">
+                        <!-- Author -->
+                        <p class="author">By Wilson Hutton</p>
+                        <!-- Title -->
+                        <h3>Our invite-only Beta accounts are now live!</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eos, eius quasi...</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="inner-footer container">
+            <!-- First box -->
+            <div class="logo-social">
+                <div class="logo-container">
+                    <img src="./img/logo.svg" id="logo-footer">
+                    <div class="logo-cover-box">
+                        <img src="./img/logo.svg" id=logo-cover>
+                    </div>
+                </div>
+                <ul class="social">
+                    <li><a href="#"><img src="./img/icon-facebook.svg"></a></li>
+                    <li><a href="#"><img src="./img/icon-youtube.svg"></a></li>
+                    <li><a href="#"><img src="./img/icon-twitter.svg"></a></li>
+                    <li><a href="#"><img src="./img/icon-pinterest.svg"></a></li>
+                    <li><a href="#"><img src="./img/icon-instagram.svg"></a></li>
+                </ul>
+            </div>
+
+            <!-- Contact List -->
+            <div class="contact-container">
+                <ul class="contact-list" id="first">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+
+                <ul class="contact-list" id="second">
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <!-- Last box -->
+            <div class="request-footer">
+                <button class="btn">Request Invite</button>
+                <p>&#169; Easybank. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
